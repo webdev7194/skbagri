@@ -1,0 +1,81 @@
+/* ===== SERVICES V2 ===== */
+
+.services-v2 {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.services-v2-header {
+  margin-bottom: 48px;
+}
+
+.services-v2-sub {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.services-v2-title {
+  font-size: 2rem;
+  margin-top: 8px;
+}
+
+/* GRID */
+.services-v2-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.service-v2-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 18px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-v2-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.service-v2-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service-v2-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.service-v2-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.service-v2-card a {
+  margin-top: auto;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #000;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .services-v2-grid {
+    grid-template-columns: 1fr;
+  }
+}
