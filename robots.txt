@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webdev7194.github.io/skbagri/sitemap.xml
